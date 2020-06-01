@@ -1,0 +1,36 @@
+{
+    "host": "localhost",
+    "port": 3000,
+    "planet": {
+        "addFavourite": {
+            "schema": {
+                "url": "/api/planet/addFavourite",
+                "body": {
+                    "type": "object",
+                    "properties": {},
+                    "required": []
+                }
+            }
+        },
+        "fetchAll": {
+            "schema": {
+                "url": "/api/planet/fetchPlanets",
+                "body": {
+                    "type": "object",
+                    "properties": {},
+                    "required": []
+                }
+            }
+        },
+        "fetchFavourite": {
+            "schema": {
+                "url": "/api/planet/fetchFavourite",
+                "body": {
+                    "type": "object",
+                    "properties": {},
+                    "required": []
+                }
+            }
+        }
+    }
+}

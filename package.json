@@ -1,0 +1,16 @@
+{
+  "name": "planet-api",
+  "version": "1.0.0",
+  "description": "Planet API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.14.1",
+    "nodemon": "^2.0.4"
+  }
+}
