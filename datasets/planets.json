@@ -4,49 +4,59 @@
 	],
 	"planets": [
 		{
-			"name": "Sun",
-			"pid": 1,
-			"description": "none"
-		},
-		{
 			"name": "Mercury",
-			"pid": 2,
-			"description": "none"
+			"id": "mercury",
+			"isFavourite": false
 		},
 		{
 			"name": "Venus",
-			"pid": 3,
-			"description": "none"
+			"id": "venus",
+			"isFavourite": false
 		},
 		{
 			"name": "Earth",
-			"pid": 4,
-			"description": "none"
+			"id": "earth",
+			"isFavourite": false
 		},
 		{
 			"name": "Mars",
-			"pid": 5,
-			"description": "none"
+			"id": "mars",
+			"isFavourite": false
+		},
+		{
+			"name": "Ceres",
+			"id": "ceres",
+			"isFavourite": false
 		},
 		{
 			"name": "Jupiter",
-			"pid": 6,
-			"description": "none"
+			"id": "jupiter",
+			"isFavourite": false
 		},
 		{
 			"name": "Saturn",
-			"pid": 7,
-			"description": "none"
+			"id": "saturn",
+			"isFavourite": false
 		},
 		{
-			"name": "Uranus",
-			"pid": 8,
-			"description": "none"
+			"name": "Pluto",
+			"id": "pluto",
+			"isFavourite": false
 		},
 		{
-			"name": "Neptune",
-			"pid": 9,
-			"description": "none"
+			"name": "Haumea",
+			"id": "haumea",
+			"isFavourite": false
+		},
+		{
+			"name": "Makemake",
+			"id": "makemake",
+			"isFavourite": false
+		},
+		{
+			"name": "Eris",
+			"id": "eris",
+			"isFavourite": false
 		}
 	]
 }

@@ -17,7 +17,7 @@ const addFavourite = async (req, res) => {
 	let userId = req.body.data.userId;
 	let addFavs = req.body.data.favs;
 	let data = {};
-	addFavs.sort((a, b) => {return a - b});
+	// addFavs.sort((a, b) => {return a - b});
 	// Read all user favs data
 	let rawData = fs.readFileSync(path.resolve(__dirname, '../datasets/fav.txt'));
 	let favsData = JSON.parse(rawData);
@@ -32,7 +32,7 @@ const addFavourite = async (req, res) => {
 			addFavs.forEach( (pid) => {
 				if (prev.indexOf(pid) == -1) { prev.push(pid); }
 			});
-			prev.sort((a, b) => {return a - b});
+			// prev.sort((a, b) => {return a - b});
 			favsData[i].favs = prev;
 			data = {
 				userId: userId,
